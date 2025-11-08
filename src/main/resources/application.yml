@@ -1,4 +1,5 @@
 spring:
-  datasource: jdbc:mysql://localhost:3306/gym_sys_db?createDatabaseIfNotExist = true
-  username:
-  password:
+  datasource:
+    url: jdbc:mysql://localhost:3306/gym_sys_db?createDatabaseIfNotExist = true
+    username:
+    password:
